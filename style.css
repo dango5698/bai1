@@ -1,0 +1,105 @@
+.trangchu {
+  width: 1000px;
+  border: 1px solid #333;
+  padding: 10px;
+}
+#post {
+  width: 600px;
+  height: 250px;
+  background: #e8e8e8;
+  float: left;}
+#sidebar {
+  width: 400px;
+  height: 500px;
+  float: right;
+ }
+ .trangchu1 {
+  width: 1100px;
+  border: 1px solid #333;
+  padding: 10px;
+}
+#post1 {
+  width: 500px;
+  height: 350px;
+  background: #e8e8e8;
+  float: left;}
+#sidebar1 {
+  width: 600px;
+  height: 500px;
+  float: right;
+ }
+ #anh1{
+  width:500px;
+  height:500px;
+ }
+ .clear { clear: both }
+ #nd{
+   padding-bottom: 50px;
+  border-bottom: #0a0a0a dashed 1px;	
+ }
+ul.nav-container {
+    display: flex;
+justify-content: flex-end;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:rgb(243, 237, 237);
+
+}
+.nav-icon{
+    height: 46px;
+    width: 66px;
+	margin-right:350px;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color:black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+ margin: 0 2vw; 
+
+}
+
+li a:hover, .nav:hover .dropbtn {
+  background-color: #FE7E6D  ;
+  color: white  ;
+  font-weight: bold;
+}
+
+li.nav {
+  display: inline-block;
+}
+p.theduc{
+width: 50%;
+}
+.nav-item {
+  display: none;
+  position: absolute;
+  background-color: #e9d8f4;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+#anh{
+  width:400px;
+  height:300px;
+}
+.nav-item a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.nav-item a:hover {
+  background-color: #FE7E6D;
+  color: white;
+}
+
+.nav:hover .nav-item {
+  display: block;
+}
